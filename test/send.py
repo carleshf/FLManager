@@ -7,14 +7,15 @@ from amqpstorm import management
 import multiprocessing
 
 hospital_list = [
-"ub",
-"aristotle-university-thesaloniki",
-#"germans-trias-i-pujol",
-#"gumed",
-#"hospital-italiano-de-buenos-aires",
-#"la-fe-university-and-polytechnic-hospital",
-#"parc-tauli",
-#"upenn",
+"UB",
+#"BUCH",
+#"GEM",
+#"ICRC",
+#"KUH",
+#"UCL",
+#"UMCU",
+#"AUMC",
+#"VHIR",
 ]
 mq_connection = "amqp://guest:guest@84.88.189.135:5672/%2F"
 parameters = pika.URLParameters(mq_connection)
