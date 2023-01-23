@@ -49,6 +49,7 @@ def self_check(n):
         return response
     elif (n=="data"):
         print("Checking csv format")
+        print("A")
         template_csv = Path.absolute(Path(__file__).parent.parent / "templates" / "federated_data_info_csv_template.csv")
         dataset_csv = Path(os.environ['PATH_TO_CSV'])
         primary_keys = None  # ["client_id"]
