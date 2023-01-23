@@ -10,7 +10,6 @@ services:
       - ./rabbitmq/data:/var/lib/rabbitmq/mnesia/rabbit@my-rabbit
       - ./rabbitmq/logs:/var/log/rabbitmq/log
     ports:
-      - 5671:5671 # todo: remove for 7575
       - 5672:5672
       - 7575:7575
       - 15672:15672
