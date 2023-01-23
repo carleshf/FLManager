@@ -10,10 +10,22 @@
 # ----------------------------------------------------------------
 # REPLACE THE FOLLOWING VARIABLES WITH YOUR OWN
 # ----------------------------------------------------------------
-node_name    = 'MYFLNODE'
-path_to_csv  = '/absolute/path/to/csv/or/excel/file.csv'
-path_to_code = '/absolute/path/where/you/want/to/store/federated_learning_code'
-data_path    = '/absolute/path/to/data/folder/containing/images'
+node_name     = 'MYFLNODE'
+path_to_csv   = '/absolute/path/to/csv/or/excel/file.csv'
+path_to_code  = '/absolute/path/where/you/want/to/store/federated_learning_code'
+data_path     = '/absolute/path/to/data/folder/containing/images'
+node_user     = 'a-cool-node-of-the-fl-network'
+node_password = 'a-strong-password'
+cert_phrase   = 'a-stronger-password'
+
+# ----------------------------------------------------------------
+# REPLACE THE FOLLOWING VARIABLES WITH YOUR OWN
+# ----------------------------------------------------------------
+ssl_active              = True
+ssl_central_server_port = 1234
+ssl_cafile_path         = '/path/o/cer/ca_certificate.pem'
+ssl_client_cert_path    = '/path/o/cer/client_certificate.pem'
+ssl_client_keys_path    = '/path/o/cer/client_key.pem'
 
 # ----------------------------------------------------------------
 # REPLACE THE FOLLOWING VARIABLES WITH THE PROJECT'S VALUES
